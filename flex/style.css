@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: lightgrey;
+    display: flex;
+    margin: 20px;
+}
+
+.start{
+    justify-content: start;
+}
+
+.end{
+    justify-content: end;
+}
+
+.center{
+    justify-content: center;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.around{
+    justify-content: space-around;
+}
+
+.evenly{
+    justify-content: space-evenly;
+}

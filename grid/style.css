@@ -1,0 +1,34 @@
+
+.container{
+    width: 80%;
+    margin: 0% auto;
+    padding: 20px;
+    background-color: rgb(5, 5, 5);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.item{
+    background-color: rgb(51, 92, 94);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* exemplo de media queries */
+@media screen and (max-width: 768px) {
+    .container{
+        background-color: green;
+        width: 70%;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .container{
+        background-color: yellow;
+        width: 60%;
+        font-size: 15px;
+    }
+}
